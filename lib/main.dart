@@ -131,7 +131,6 @@ class SecondScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
                   child: const Text('Cancelar'),
                 ),
               ],
